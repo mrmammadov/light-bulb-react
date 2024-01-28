@@ -1,0 +1,51 @@
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 5px 5px 3.5px rgba(37, 36, 36, 0.5);
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.box-clicked {
+  margin-top: 14px;
+  box-shadow: 0px 0px 3px rgba(37, 36, 36, 0.5);
+  pointer-events: none;
+  cursor: not-allowed;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+
+
+.on {
+  background-color: rgb(135, 210, 135);
+}
+
+.off {
+  background-color: rgb(233, 136, 136);
+}
+
+.lamp {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 20%;
+}
